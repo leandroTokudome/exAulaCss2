@@ -1,0 +1,98 @@
+* {
+    font-family: arial;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgba(71, 0, 71);
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px rgb(6, 161, 6) solid;
+}
+
+h1 {
+    color: rgb(6, 161, 6);
+}
+
+ul {
+    width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainBody {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.header .mainBody {
+    justify-content: space-between;
+    align-items: center;
+}
+
+a,
+li {
+    color: rgb(6, 161, 6);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://blog4.mfrural.com.br/wp-content/uploads/2020/12/uva-quintal.jpg);
+    color: white;
+}
+
+p {
+    font-size: 250%;
+    width: 30%;
+}
+
+span {
+    font-weight: 950;
+}
+
+.banner .mainBody {
+    align-items: center;
+    height: 100%;
+}
+
+.social .mainBody {
+    justify-content: space-around;
+}
+
+.social .mainBody img {
+    width: 150px;
+    height: 150px;
+}
+
+.mainBody .card {
+    font-size: 50%;
+    width: 300px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(6, 161, 6);
+    border: 2px rgb(6, 161, 6) solid;
+    margin-top: 100px;
+}
+
+.card p {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    background-color: rgba(71, 0, 71);
+    height: 700px;
+}
