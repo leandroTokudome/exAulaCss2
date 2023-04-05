@@ -96,3 +96,16 @@ span {
     background-color: rgba(71, 0, 71);
     height: 700px;
 }
+
+.footer {
+    background-color: rgba(71, 0, 71);
+    border-top: 2px black solid;
+    height: 180px;
+}
+
+.footer .mainBody {
+    color: rgb(6, 161, 6);
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
